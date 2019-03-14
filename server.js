@@ -61,7 +61,7 @@ app.use((req, res, next) => {
   }
 });
 
-/* Mount API endpoints */
+/* Mount API endpoints right*/
 app.use(cart);
 app.use(catalogue);
 app.use(orders);
